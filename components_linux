@@ -1,0 +1,5 @@
+chmod +x scraping.sh
+crontab -e
+*/5**** /home/admin/project/scraping.sh 
+chmod +x dashboard.py
+python3 dashboard.py
