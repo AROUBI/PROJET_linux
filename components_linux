@@ -12,5 +12,13 @@ touch dashboard.py
 chmod +x dashboard.py
 python3 dashboard.py
 
+j'ai également installé tmux et ouvert une session dans le répertoire projet afin de faire tourner en continue le script python
+
+tmux new-session -s mysession
+Ctrl-b d
+
+pour se reconnecter à la session tmux ultérieurement on utilise 
+tmux attach -t mysession
+
 
 
