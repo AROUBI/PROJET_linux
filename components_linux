@@ -1,5 +1,16 @@
-chmod +x scraping.sh
+J'ai essayé de répertorier les différentes commandes utilisées lors du projet (je n'ai pas mis le code de l'installation de modules et packages comme python, pandas,etc...)
+
+touch prix.csv
+nano prix.csv                  =>   Date;Prix (on sauvegarde et  ferme le nano)
+
+touch scraping.sh
+nano scraping.sh      => (j'ai mis le code dans l'autre fichier nommé scraping.sh)
+chmod +x scraping.sh (permet de rendre executable le fichier shell)
 crontab -e
-*/5**** /home/admin/project/scraping.sh 
+*/5**** /home/admin/project/scraping.sh (on execute toutes les 5 minutes le scraping des données) 
+touch dashboard.py
 chmod +x dashboard.py
 python3 dashboard.py
+
+
+
